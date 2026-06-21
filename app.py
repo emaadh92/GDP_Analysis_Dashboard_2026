@@ -110,6 +110,9 @@ with col4:
 
 st.divider()
 
+
+
+
 # ----------------------------
 # Top GDP Countries
 # ----------------------------
@@ -154,14 +157,6 @@ st.plotly_chart(
     fig_low_gdp,
     use_container_width=True
 )
-
-
-# ----------------------------
-# Countries with Negative Growth
-# ----------------------------
-negative_growth = filtered_df[
-    filtered_df["GDP_Growth_Percent"] < 0
-]
 
 
 

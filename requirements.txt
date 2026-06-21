@@ -6,20 +6,15 @@ numpy==1.26.4
 plotly==5.24.1
 altair==5.5.0
 
-pyarrow==14.0.2
+pyarrow>=18.0.0
 
 requests==2.32.3
-urllib3==2.2.3
 
 python-dateutil==2.9.0.post0
 pytz==2024.1
 
 pydantic==2.7.4
 
-protobuf==4.25.3
-grpcio==1.62.3
-
-google-generativelanguage==0.6.10
 google-generativeai==0.7.2
 
 watchdog==4.0.1
